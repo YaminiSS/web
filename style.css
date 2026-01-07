@@ -1,81 +1,48 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f1f3f6;
+    background-color: #eeeeee;
 }
 
-.main-box {
-    width: 700px;
-    height: 420px;
+.box {
+    width: 350px;
     margin: 100px auto;
-    display: flex;
-    background: white;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    padding: 25px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 10px gray;
 }
 
-/* Left Section */
-.left-box {
-    width: 40%;
-    background-color: #2874f0;
-    color: white;
-    padding: 40px 25px;
-}
-
-.left-box h1 {
+h2 {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-.left-box p {
-    font-size: 14px;
-}
-
-/* Right Section */
-.right-box {
-    width: 60%;
-    padding: 30px;
-}
-
-.right-box input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: none;
-    border-bottom: 1px solid #ccc;
-    outline: none;
-}
-
-.right-box button {
-    width: 100%;
-    padding: 12px;
-    background-color: #fb641b;
-    border: none;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
+label {
+    font-weight: bold;
+    display: block;
     margin-top: 10px;
 }
 
-.right-box button:hover {
-    background-color: #e55b17;
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-.terms {
-    font-size: 12px;
-    color: gray;
-    margin-top: 15px;
-}
-
-.terms span {
-    color: #2874f0;
-    cursor: pointer;
-}
-
-.login-link {
+button {
+    width: 100%;
+    padding: 10px;
     margin-top: 20px;
-    text-align: center;
-    font-size: 14px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-.login-link span {
-    color: #2874f0;
-    cursor: pointer;
+button:hover {
+    background-color: #45a049;
 }
