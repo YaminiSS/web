@@ -2,25 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Login Page</title>
+    <title>Login / Sign Up</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <div class="container">
-        <h2>Login</h2>
+<div class="main-box">
 
+    <!-- Left Section -->
+    <div class="left-box">
+        <h1>Login</h1>
+        <p>Get access to your Orders, Wishlist and Recommendations</p>
+    </div>
+
+    <!-- Right Section -->
+    <div class="right-box">
         <form>
-            <label>Username</label>
-            <input type="text" placeholder="Enter username">
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Roll Number" required>
+            <input type="email" placeholder="Email ID" required>
+            <input type="text" placeholder="Mobile Number" required>
+            <input type="password" placeholder="Password" required>
 
-            <label>Password</label>
-            <input type="password" placeholder="Enter password">
+            <button type="submit">Continue</button>
 
-            <button type="submit">Login</button>
+            <p class="terms">
+                By continuing, you agree to our <span>Terms of Use</span> and
+                <span>Privacy Policy</span>.
+            </p>
+
+            <p class="login-link">Already have an account? <span>Login</span></p>
         </form>
     </div>
+
+</div>
 
 </body>
 </html>
